@@ -3,7 +3,7 @@ package helloworld;
 import java.util.Scanner;
 
 public class Hello {
-
+//This code works fine
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
