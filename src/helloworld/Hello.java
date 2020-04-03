@@ -1,15 +1,22 @@
 package helloworld;
 
+import java.util.Scanner;
+
 public class Hello {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		float temp =(float) 36.0 ;
+		System.out.println("Enter temperature: ");
+		Scanner input1 = new Scanner(System.in);
+		float temp = input1.nextFloat();
+		
+		
 		
 				if(temp <= 20)
 					System.out.println("Its normal temperatutre");
 				else
 						System.out.print("its very hot");
-	}
-
+				
+	}	
 }
