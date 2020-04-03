@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Hello {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Enter temperature: ");
@@ -17,6 +18,5 @@ public class Hello {
 				else
 						System.out.print("its very hot");
 				
-	}
-	
+	}	
 }
